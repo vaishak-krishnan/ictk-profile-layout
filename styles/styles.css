@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url("../images/bg-pattern-4.png");
+    /* background-position: center; */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+
+/* start header */
+.header{
+    background-color: black;
+    height: 6em;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+    
+}
+
+#logo{
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 75px;
+    width: 125px;
+
+}
+
+.nav-bar{
+    background-color: black;
+    color: azure;
+    float: right;
+    margin-right: 100px;
+    margin-top: 30px;
+    
+
+}
+
+.nav-bar a{
+    color:azure;
+    text-decoration: none;
+    padding: 10px ;
+    margin: 5px;
+
+
+}
+
+.nav-bar a:hover{
+    background-color:blueviolet;
+    color: azure;
+    border: 0px solid white ;
+    border-radius: 10px;
+    
+
+}
+/* end header */
+
+.aside-left{
+    width: 50%;
+    float: left; 
+    height: 45em;
+        
+
+}
+.aside-right{
+    width: 50%;
+    float: right;
+    height: 45em;
+    
+
+
+}
+
+/* start profile image */
+
+.img-placeholder{
+    width: 100%;
+    
+
+}
+.profile-image{
+    border: 5px solid blueviolet;
+    /* background-color: #FFFFFF; */
+    -moz-border-radius:100%;
+    -webkit-border-radius: 100%;
+    width: 50%;
+    height: 50%;
+    margin-top: 10%;
+    margin-left: 25%;
+
+
+}
+/* end profile image */
+
+.content-right{
+    height: auto;
+    margin-top: 16em;
+    margin-right: 20px;
+}
+
+.aside-right h1{
+    text-align: right;
+    background-color:blueviolet;
+    color: rgb(255, 255, 255);
+    padding-right: 5px;
+    
+
+}
+
+
+.aside-right h3{
+    text-align: justify;
+    margin-top: 5px;
+    line-height: 30px;
+    color: rgb(36, 36, 36);
+}
+
+
+
+/* skills */
+.skills
+{
+margin-top: 45em;
+}
+
+.skills h1{
+    text-align: center;
+    background-color:blueviolet;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.images-small{
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+    
+
+ 
+}
+
+.images-small img{
+    height: 100px;
+    width: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 100px;
+}
+
+/* end skills */
+
+
+
+.experience{
+    margin-top: 20em;
+
+}
+.experience h1{
+    background-color:blueviolet;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+
+}
+
+.p-box{
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 25px;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    height: 100px;
+
+}
+
+/* education */
+.education{
+    margin-top: 19em;
+}
+.education h1{
+    background-color:blueviolet;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+
+}
+.education .side-left{
+    width: 40%;
+    float: left;
+
+}
+.image-education img{
+    width: 50%;
+    padding-left: 25%;
+    padding-top: 5%;
+}
+
+.education .side-right{
+    width: 40%;
+    float: left;
+
+}
+.education ul{
+    margin-top: 100px;
+    text-align: center;
+    list-style: none;
+    margin-bottom: 50px;
+
+}
+.education li{
+    margin-bottom: 10px;
+}
+
+/* start contact */
+
+.contact{
+    margin-top: 20em;
+
+}
+.contact .side-left{
+    float: left;
+    /* width: 45%; */
+    margin: 10%;
+    width: 35%;
+}
+
+.side-left h1{
+    background-color:blueviolet;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    padding-right: 10px;;
+   
+}
+.side-left h2{
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+.contact .side-right{
+    float: left;
+    margin: 10%;
+
+    
+}
+
+.name{
+    background-color: lightgray;
+    border: 2px solid blueviolet;
+    border-radius: 4px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+
+}
+.textarea{
+    background-color: lightgray;
+    border: 2px solid blueviolet;
+    border-radius: 4px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+#send_btn{
+    background-color: blueviolet;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  width: 100%;
+}
+
+/* social */
+.social{
+    float: right;
+    margin-top: 10px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+  
+  
+/* social */
+
+.footer{
+    margin-top: 68em;
+    background-color: black;
+    color: azure;
+    text-align: center;
+    height: 50px;
+}
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+
+

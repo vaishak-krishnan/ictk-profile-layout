@@ -5,9 +5,203 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vaishak Krishnan - Profile</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
 <body>
-    <h1>Vaishak Krishnan</h1>
-    <h2>H2 Heading </h2>
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+     <!-- start Header-->
+     <div class="header" id="header">
+        <!--start logo -->
+        <a href="index.html"><img src="Images/logo-dark.png" alt="Vaishak Krishnan" id="logo" ></a>
+        <!-- end logo -->
+
+        <!--start navigation -->
+        <nav class="nav-bar">
+            <a href="#about">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>  
+        <!--end navigation  -->
+
+     </div>
+    <!-- end Header-->
+    <!-- start about -->
+     <div class="about" id="about">
+        <div class="aside-left">
+            <div class="img-placeholder">
+                <img src="images/profile-image.jpg" alt="profile-image" class="profile-image">
+
+            </div>
+        </div>
+        <div class="aside-right">
+            <div class="content-right">
+            <h1>About Me</h1>
+            <h3>To secure a challenging position in Information Technology sector, where I can effectively contribute my analytical and programming skills as a Software Professional. Active participation using skills and knowledge in the best possible manner with a positive attitude to achieve organizational goals and successfully accomplish career growth along with professional growth.</h3>
+            </div>
+        </div>
+
+     </div>
+     <!-- end about -->
+     <!-- start skills -->
+     <div class="skills" id="skills">
+        <h1>Skills</h1>
+        <div class="images-small">
+            <img src="images/skills/1-html5.png" alt="">
+         </div>
+        <div class="images-small">
+            <img src="images/skills/2-css3.png" alt="">
+         </div>
+        <div class="images-small">
+            <img src="images/skills/3-js.png" alt="">
+         </div>
+        <div class="images-small">
+            <img src="images/skills/4-sass.png" alt="">
+         </div>
+        <div class="images-small">
+            <img src="images/skills/5-bootstrap.png" alt="">
+         </div>
+        <div class="images-small">
+            <img src="images/skills/6-ps.png" alt="">
+         </div>
+        <div class="images-small">
+            <img src="images/skills/7-figma.png" alt="">
+         </div>
+       
+     </div>
+     
+
+     <!-- start experience -->
+     <div class="experience" id="experience">
+        <h1>Experience</h1>
+        <div class="p-box">
+            <h2>Yenock</h2>
+            <h3>Software Engineer</h3>
+            <h3>2015-2019</h3>
+        </div>
+        <div class="p-box">
+            <h2>Dexlock</h2>
+            <h3>Software Engineer</h3>
+            <h3>2015-2015</h3>
+        </div>
+        <div class="p-box">
+            <h2>Solutions Infotech</h2>
+            <h3>Software Engineer</h3>
+            <h3>2013-2015</h3>
+        </div>
+        <div class="p-box">
+            <h2>Freelance Developer</h2>
+            <h3>Software Engineer</h3>
+            <h3>2012-2013</h3>
+        </div>
+
+
+     </div>
+     <!-- end experience -->
+
+     <!-- start education -->
+     <div class="education" id="education">
+        <h1>Education</h1>
+        <div class="side-left">
+            <div class="image-education">
+                <img src="images/education-2.png">
+            </div>
+        </div>
+        <div class="side-right">
+        <ul>
+            <li><h3>Graduated in B.tech Information Technology from Cochin University Of Science And Technology in 2012</h3></li>
+            <li><h3>completed Higher Secondary education under Kerala State Board Education in 2008</h3></li>
+            <li><h3>completed High school education from Technical high under Kerala State Board education in 2004</h3></li>
+        </ul>
+     </div>
+     </div>
+     <!-- end education -->
+     <!-- start contact -->
+     <div class="contact" id="contact">
+    
+        <div class="side-left">
+            <h1>Contact</h1>
+            <h2>Vaishak C Krishnan</h2>
+            <h2>KODUNGALLUR,THRISSUR,KERALA</h2>
+            <h2>INDIA</h2>
+            <h2>+918921718218/+919995037430</h2>
+            <h2>vaishak.krishnan@gmail.com</h2>
+            <div class="social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-skype"></a>
+
+            </div>
+            
+            
+        </div>
+        <div class="side-right">
+            <form action="#" class="contact-foam">
+                <input type="text" name="name" id="name" class="name" placeholder="Enter your name">
+                <br>
+                <br>
+                <input type="text" name="phone" id="phone" class="name" placeholder="Enter your contact numer">
+                <br>
+                <br>
+                <input type="text" name="phone" id="e-mail" class="name" placeholder="Enter your contact e-mail">
+                <br>
+                <br>
+                <textarea id="textarea" name="textarea" rows="4" cols="50" class="textarea">
+                </textarea>
+                <br>
+                <br>
+                <button type="submit" id="send_btn">Send</button>
+            </form>
+            
+
+        </div>
+        
+     </div>
+     <!-- end contact -->
+<!-- start footer -->
+<div class="footer">
+        <br>
+        <h4>Copyright @2022</h4>
+    
+</div>
+
+<!-- end footer -->
+<!-- script for go to top -->
+    
+<script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+    <!-- end script for go to top -->
+ 
+  
+     
 </body>
 </html>
