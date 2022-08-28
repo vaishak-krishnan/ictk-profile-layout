@@ -100,7 +100,7 @@ body{
 
 .content-right{
     height: auto;
-    margin-top: 10em;
+    margin-top: 5em;
     margin-right: 20px;
 }
 
@@ -127,7 +127,15 @@ body{
     text-decoration: underline;
 }
 
-.aside-right ul{
+.aside-right h4{
+    text-align: left;
+    margin-top: 10px;
+    line-height: 25px;
+    margin-left: -40px;
+
+}
+
+/* .aside-right ul{
     list-style: none;
     text-align: left;
     margin-top: 10px;
@@ -137,7 +145,7 @@ body{
 .aside-right li{
     font-size: medium;
     line-height: 25px;
-}
+} */
 
 
 
