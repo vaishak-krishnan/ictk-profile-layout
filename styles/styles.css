@@ -100,7 +100,7 @@ body{
 
 .content-right{
     height: auto;
-    margin-top: 16em;
+    margin-top: 10em;
     margin-right: 20px;
 }
 
@@ -112,13 +112,31 @@ body{
     
 
 }
-
-
-.aside-right h3{
+.aside-right h2{
     text-align: justify;
     margin-top: 5px;
     line-height: 30px;
     color: rgb(36, 36, 36);
+}
+
+.aside-right h3{
+    text-align: justify;
+    margin-top: 15px;
+    line-height: 30px;
+    color: rgb(36, 36, 36);
+    text-decoration: underline;
+}
+
+.aside-right ul{
+    list-style: none;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: -35px;
+    text-decoration: double;
+}
+.aside-right li{
+    font-size: medium;
+    line-height: 25px;
 }
 
 
